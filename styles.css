@@ -1,0 +1,37 @@
+.strong{
+    font-weight: bold; 
+}
+.padding{
+    margin-left: 10px;
+    margin-right: 10px;  
+  }
+
+
+  table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+    empty-cells: show;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  tbody tr:nth-child(even) {
+    /* background-color: blue; */
+    background-color: lightgray;
+
+  }
+
+  
+  body{
+    background-color: white;
+    color: black;
+    
+  }
+
+  @media only screen and (min-device-width: 480px){
+    body {
+    background-color: rgba(255, 255, 255, 0.5);
+      }
+    }
